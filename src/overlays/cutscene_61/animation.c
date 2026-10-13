@@ -12,12 +12,58 @@ void func_cutscene_61_800769AC(int index) { // Cutscene_SetCurrentByIndex
     D_8006C570 = (index * 0x10) + &D_8006E548;
 }
 
-INCLUDE_ASM("asm/nonmatchings/overlays/cutscene_61/animation", func_cutscene_61_800769CC);
+//-------------------------------------------------
 
-INCLUDE_ASM("asm/nonmatchings/overlays/cutscene_61/animation", func_cutscene_61_800769D4);
+/*
+* func_cutscene_61_800769CC() - MATCHING
+! Unimplemented function (empty)
+*/
 
-INCLUDE_ASM("asm/nonmatchings/overlays/cutscene_61/animation", func_cutscene_61_800769DC);
+void func_cutscene_61_800769CC(void) {
 
-INCLUDE_ASM("asm/nonmatchings/overlays/cutscene_61/animation", func_cutscene_61_800769FC);
+}
 
-INCLUDE_ASM("asm/nonmatchings/overlays/cutscene_61/animation", func_cutscene_61_80076A04);
+//-------------------------------------------------
+
+/*
+* func_cutscene_61_800769D4() - MATCHING
+! Unimplemented function (empty)
+*/
+
+void func_cutscene_61_800769D4(void) {
+
+}
+
+//-------------------------------------------------
+
+/*
+* func_cutscene_61_800769DC() - MATCHING
+* IDENTICAL TO func_cutscene_61_800769AC
+* https://decomp.me/scratch/VH7si
+*/
+
+void func_cutscene_61_800769DC(int index) {
+    D_8006C570 = (index * 0x10) + &D_8006E548;
+}
+
+//-------------------------------------------------
+
+/*
+* func_cutscene_61_800769FC() - MATCHING
+! Unimplemented function (empty)
+*/
+
+void func_cutscene_61_800769FC(void) {
+
+}
+
+//-------------------------------------------------
+
+/*
+* func_cutscene_61_80076A04() - MATCHING
+! Unimplemented function (empty)
+*/
+
+void func_cutscene_61_80076A04(void) {
+
+}
